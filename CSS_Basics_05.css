@@ -1,0 +1,40 @@
+/*1:40*/
+/*CSS - Cascading Style Sheets*/
+/*Selector {Declarator}*/
+body{
+    background-color: red;
+}
+
+h1{
+    font-size: 25px;
+    color: green;
+    font-family: "Helvetica", sans-serif;
+}
+
+/*use # for id. You can have only 1 paragraph/heading... with this has*/
+/*use . for class. You can use it for many*/
+/*!important - use only in emergency cases when you cannot override the current used*/
+#heading{
+    font-size: 25px;
+    color: green;
+    font-family: "Helvetica", sans-serif;
+}
+
+.red{
+    font-size: 25px;
+    color: green;
+    font-family: "Helvetica", sans-serif;
+}
+
+button{
+    color:blue;
+    text-transform: uppercase;
+    background: red;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover{
+    background: white;
+    cursor:pointer;
+}
