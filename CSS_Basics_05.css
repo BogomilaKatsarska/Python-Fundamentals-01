@@ -1,8 +1,9 @@
-/*1:40*/
 /*CSS - Cascading Style Sheets*/
 /*Selector {Declarator}*/
+/*Clip path generator*/
 body{
     background-color: red;
+    text-align: left;
 }
 
 h1{
